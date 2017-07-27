@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Using for view can press-->
+    <style name="BaseCustomVerticalViewPress">
+        <item name="backgroundNormal">@drawable/custom_base_selector</item>
+        <item name="imageResource">@mipmap/ic_launcher</item>
+        <item name="text">Test</item>
+        <item name="textColor">@drawable/text_custom_base_selector</item>
+        <item name="textColorPressed">@color/colorAccent</item>
+        <item name="android:clickable">true</item>
+        <item name="backgroundPressed">@drawable/custom_base_pressed</item>
+    </style>
+
+    <!--Using for view don't press-->
+    <style name="BaseCustomVerticalView">
+        <item name="backgroundNormal">@drawable/custom_base_selector</item>
+        <item name="android:layout_weight">1</item>
+        <item name="imageResource">@mipmap/ic_launcher</item>
+        <item name="text">Test</item>
+        <item name="textColor">@drawable/text_custom_base_selector</item>
+    </style>
+</resources>

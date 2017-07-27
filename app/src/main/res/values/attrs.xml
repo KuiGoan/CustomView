@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseCustomVerticalView">
+        <attr name="hasPressed" format="boolean"/>
+        <attr name="text" format="string"/>
+        <attr name="imageResource" format="integer"/>
+        <attr name="textColor" format="integer"/>
+        <attr name="textColorPressed" format="integer"/>
+        <attr name="backgroundNormal" format="integer"/>
+        <attr name="backgroundPressed" format="integer"/>
+    </declare-styleable>
+</resources>
